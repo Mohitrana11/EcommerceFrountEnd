@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="/Styles/styleLog.css">
+</head>
+<body>
+    <div class="box1">
+        <img src="/images/about/a6.jpg" alt="">
+
+        <div class="singup-page">
+            <div class="wrapper">
+            <h1>Sign up</h1>
+            <form action="/SingData"  method="post">
+                <input type="text" placeholder="Username" name="name">
+                <input type="password" placeholder="Password" name="password">
+                      <input type="submit">
+            </form>
+            <div class="terms">
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox"> I agree to these <a href="#">Terms & Conditions</a></label>
+            </div>
+            {{!-- <button>Sign up</button> --}}
+          
+            <div class="member"></div> Already a member?
+            <a href="/login">
+                Login here
+            </a>
+        </div>
+    </div>
+    </div>
+    </body>
+</html>
